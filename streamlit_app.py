@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("Sample Data Dashboard")
 
 # load data
-df = pd.read_csv("data/NBA1.csv")
+df = pd.read_csv("data/NBA3.csv")
 
 # show dataframe
 st.subheader("Raw Data")
